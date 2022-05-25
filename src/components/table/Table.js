@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from 'react'
 import './table.css'
 import { Context } from '../../context/mainContext'
 import { useNavigate } from 'react-router-dom'
-import  Table  from 'react-bootstrap/Table'
+import Table from 'react-bootstrap/Table'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function Tables() {
@@ -44,7 +44,7 @@ function Tables() {
 
 
   const handleDrop = (e) => {
-     const target = e.target.value;
+    const target = e.target.value;
     setDropVal(target);
   }
 
@@ -54,15 +54,15 @@ function Tables() {
         <div className='date-filter'>
           <label className='lab' htmlFor='drops'>
             Filter Tasks
-          <select className='drop-class' value={dropVal && dropVal} onChange={handleDrop}>
-            {OPtions && OPtions?.map((item, i) => (
-              <option selected={dropVal === item} value={`${item}`} key={`opt${i}`}>
-                {item}
-              </option>
-            ))}
-          </select> 
+            <select className='drop-class' value={dropVal && dropVal} onChange={handleDrop}>
+              {OPtions && OPtions?.map((item, i) => (
+                <option selected={dropVal === item} value={`${item}`} key={`opt${i}`}>
+                  {item}
+                </option>
+              ))}
+            </select>
           </label>
-       
+
         </div>
 
         <h1>Simple Task Table</h1>
@@ -77,15 +77,15 @@ function Tables() {
               <th>Stauts</th>
             </tr>
           </thead>
-          
+
           {showFiltered && showFiltered?.length < 2
             ?
             <tbody>
               <tr>
                 <td colSpan={5}>
-                <div>
-                  <button onClick={() => navigate('/addtask')}>pls add more task</button>
-                </div>
+                  <div>
+                    <button onClick={() => navigate('/addtask')}>pls add more task</button>
+                  </div>
                 </td>
               </tr>
             </tbody>
@@ -102,7 +102,7 @@ function Tables() {
               ))}
             </tbody>
           }
-        
+
         </Table>
       </div>
     </div>
