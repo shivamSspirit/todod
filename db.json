@@ -1,0 +1,100 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "name": "see sunrise",
+      "date": "2022-05-12",
+      "time": 34,
+      "details": "this is daily task",
+      "status": "active"
+    },
+    {
+      "id": 2,
+      "name": "eat breakfast",
+      "date": "2022-05-22",
+      "time": 89,
+      "details": "this is daily task",
+      "status": "pending"
+    },
+    {
+      "id": 3,
+      "name": "kiss to childs",
+      "date": "2022-05-21",
+      "time": 65,
+      "details": "this is daily task",
+      "status": "pending"
+    },
+    {
+      "name": "shivam can to anything",
+      "date": "2022-05-24",
+      "time": 365,
+      "details": "this will done",
+      "status": "active",
+      "id": 4
+    },
+    {
+      "name": "prem",
+      "date": "2022-05-24",
+      "time": 304,
+      "details": "this is done",
+      "status": "active",
+      "id": 5
+    },
+    {
+      "name": "shivam can do everything",
+      "date": "2022-05-25",
+      "time": 182,
+      "details": "done",
+      "status": "active",
+      "id": 6
+    },
+    {
+      "name": "shivam can do anything",
+      "date": "2022-03-12",
+      "time": 60,
+      "details": "done",
+      "status": "active",
+      "id": 7
+    },
+    {
+      "name": "kkk",
+      "date": "2022-05-12",
+      "time": 2880,
+      "details": "odne",
+      "status": "active",
+      "id": 8
+    },
+    {
+      "name": "prem",
+      "date": "2022-05-21",
+      "time": 720,
+      "details": "fsd",
+      "status": "active",
+      "id": 9
+    },
+    {
+      "name": "jj",
+      "date": "2022-03-12",
+      "time": 12960,
+      "details": "fsdfj",
+      "status": "active",
+      "id": 10
+    },
+    {
+      "name": "kkk",
+      "date": "2022-05-27",
+      "time": 29760,
+      "details": "jjjj",
+      "status": "active",
+      "id": 11
+    },
+    {
+      "name": "legend",
+      "date": "2022-05-25",
+      "time": 142,
+      "details": "this osm done",
+      "status": "active",
+      "id": 12
+    }
+  ]
+}
